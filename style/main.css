@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .clearfix:after{
     content: "";
     display: block;
@@ -20,6 +21,7 @@
 .comWith{
     width: 1000px;
     margin: 0 auto;
+   
 }
 a{
     text-decoration: none;
@@ -652,5 +654,142 @@ img{
 }
 .choose_bar{
     height: 32px;
-    background: #000;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    padding-top: 5px;
+    
+    
+}
+.songzhi{
+    padding: 0px 15px;
+    line-height: 32px;
+    
+}
+.address{
+    margin-right: 8px;
+    position: relative;
+    /* border: 1px solid #ccc; */
+  
+}
+.address h3{
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #ccc;
+    
+}
+.address i{
+    width: 8px;
+    height: 4px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    background:url(../images/icon/sj_blue_03.jpg) right center no-repeat;
+}
+.address ul{
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 98%;
+    top: 27px;
+    
+}
+.address li{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.xianshi{
+    line-height: 32px;
+}
+.xianshi input{
+    vertical-align: middle;
+}
+.xianshi label{
+    padding-right: 12px;
+}
+.xianshi i{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+.xianshi span{
+    padding-right:86px; 
+}
+.screen_pr_item{
+    width: 206px;
+    height: 350px;
+    padding-left: 60px;
+    
+}
+.screen_pr_item p{
+    font-size: 12px;
+}
+.screen_pr_item .img{
+    width: 100%;
+    text-align: center;
+    height: 256px;
+    line-height: 256px;
+}
+.screen_pr_item img{
+    vertical-align: middle;
+}
+.screen_pr_item p{
+    line-height: 15px;
+}
+.screen_pr_item i{
+    font-style: normal;
+}
+.price{
+    color: red;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.pinglun{
+    color: #1369c0;
+}
+.price_pinglun{
+   margin-top: 10px;
+}
+.jiarugouwuche{
+    margin-top: 15px;
+}
+.jiarugouwuche i{
+    width: 13px;
+    height: 12px;
+   
+    background: url(../images/icon/car_03.jpg) center no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 1px;
+}
+.jiarugouwuche a{
+   
+    color: #1369c0;
+    border: 1px solid #1369c0;
+    padding:5px;
+    
+}
+.screen_pr_item .hot{
+    vertical-align: 15%;
+
+}
+/*************************/
+.daohang{
+    height: 52px;
+    line-height: 52px;
+    font-size: 12px;
+}
+.daohang li{
+    float: left;
+    margin-right: 5px;
+
+}
+.bg_grey{
+    background-color: #f0f0f0;
+        
+}
+.bg_white{
+    background-color: #fff;
 }
