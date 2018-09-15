@@ -6,7 +6,7 @@
 
 .clearfix:after{
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 .clearfix{
@@ -55,6 +55,13 @@ img{
 .hr_25{
     height: 25px;
     overflow: hidden;;
+}
+.bg_grey{
+    background-color: #f0f0f0;
+        
+}
+.bg_white{
+    background-color: #fff;
 }
 /*topBar 网页顶部*/
 .topBar{
@@ -420,6 +427,10 @@ img{
     color: #666666;
 }
 /*******底部********/
+.absolute{
+    position: absolute;
+    bottom: 0px;
+}
 .footer{
     background-color: #d4d4d4;
     /* position: absolute; */
@@ -668,6 +679,7 @@ img{
 .address{
     margin-right: 8px;
     position: relative;
+    background: #fff;
     /* border: 1px solid #ccc; */
   
 }
@@ -784,12 +796,307 @@ img{
 .daohang li{
     float: left;
     margin-right: 5px;
+}
+.pI_content{
+    border: 1px solid #ccc;
+}
+.pI_content .leftArea{
+    width: 310px;
+   
+}
+.pI_content .leftArea .img{
+    height: 340px;
+    line-height: 340px;
+    text-align: center;
+}
+.img_list{
+    text-align: center;;
+}
+.img_list ul{
+    display: inline-block;
+}
+.img_list li{
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+}
+.img_list .active{
+    border: 1px solid #1369c0;
+    margin-right: 1px;
+}
+.pI_content .rightArea{
+    width: 670px; 
+    border-left: 1px solid #ccc;
+}
+.neirong{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.pI_title{
+    font-size: 16px;
+    font-family: "微软雅黑";   
+}
+
+.dt{
+ width: 75px;
+ height: 35px;
+ line-height: 35px;
+ text-indent: 15px;
+ color: #666;
+ font-size: 12px;
+}
+.dd{
+    color: #666;
+    font-size: 12px;
+    line-height: 35px;
+    /* height: 35px; */
+    /* width: 560px;新加 */
+}
+.dd em{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+.dd .price{
+    color: red;
+    font-size: 22px;
+}
+.padding{
+    padding-bottom: 15px 
+}
+.dl {
+    padding-top: 15px;
 
 }
-.bg_grey{
-    background-color: #f0f0f0;
-        
+.dd .manhuangou{
+    background: url(../images/icon/hg_icon_03.jpg) top center no-repeat;
+    width:54px;
+    height: 18px;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 16px;
+    color: #fff;
+    text-indent: 10px;
 }
-.bg_white{
-    background-color: #fff;
+.dd span{
+    color: #666;
+    font-size: 12px; 
+}
+
+.noline_height{
+    line-height: normal;
+}
+.youhuo{
+    padding-top: 5px;
+    display:inline-block;
+    
+}
+
+.guige ul,
+.color ul{
+    height: 35px;
+}
+.color li{
+    float: left;
+    margin-right: 13px;
+    border: 1px solid #ccc;
+    padding: 0px 25px;
+    line-height: 35px;
+    background: #fff;
+   
+}
+.guige {
+    width: 540px;
+}
+.guige li{
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 0px 25px;
+    line-height: 35px;
+    background: #fff;   
+}
+
+.number{
+    border: 1px solid #b2b2b2;
+    height: 32px;
+    width: 82px;;
+}
+.reduction,
+.plus{
+    width: 15px;
+    text-align: center;
+    background: url(../images/icon/plus_bg_03.jpg) left top no-repeat;
+    line-height: 32px;
+    color: #333;
+}
+
+.number div{
+    height: 100%;
+}
+.des_input{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 46px;
+    padding:0px 2px;
+    
+}
+.des_input input{
+    width: 100%;
+    height: 100%;
+    line-height: 32px;
+    position: relative;
+    top: -2px;
+    text-align: center; 
+}
+.xiangou{
+    margin-left: 12px;
+    font-size: 14px;
+}
+.xiangou i{
+    color: #fc7700;
+    font-style: normal;
+}
+.yixuanzhe .dt{
+    font-size: 12px;
+    color: #666;
+    width: 600px;
+
+}
+.yixuanzhe i{
+    color: #1369c0;
+    font-style: normal;
+}
+.car_btn{
+    width: 100%;
+    height: 90px;
+}
+.buy_btn{
+    width: 49%;
+    line-height: 90px;
+    text-align: center;
+
+}
+.buy_btn img{
+    vertical-align: middle;
+}
+.left_line{
+    border-right: 1px solid #ccc;
+}
+.zhuyi .dt{
+    font-size: 12px;
+    color: #999999;
+    padding: 10px;
+    width: 600px;
+}
+/*******登录页面*******/
+.logoBar_title{
+    color: #fff;
+    height: 85px;
+    line-height: 85px;
+    
+}
+.login_box{
+    width: 395px;
+    margin: 0 auto;  
+    border: 1px solid #ccc;
+    padding-left: 85px;
+    padding-right: 70px;
+    padding-top: 25px;
+}
+.login_input{
+    border: 1px solid #999;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 5px;
+    width: 100%;
+    background: url(../images/icon/user_icon_03.jpg) 96% center no-repeat;
+
+}
+.l_tit {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.zidongdenglu{
+    margin-top: 30px;
+}
+.login_btn{
+    width: 100%;
+    background: url(../images/icon/des_tit_03.jpg) left top repeat-x;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.login_parent,
+.login_parent a{
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.login_parent li{
+    float: left;
+    margin-right: 5px;
+}
+.login_parent{
+    margin-top: 40px;
+}
+.reg_link{
+    background: url(../images/icon/reg_link_03.jpg) left top no-repeat;
+    width: 115px;
+    height: 31px;
+    display: inline-block;
+    position: relative;
+    right: -300px;
+    top: 36px;
+}
+.reg_box{
+    width: 500px;
+    margin: 0 auto;  
+    border: 1px solid #ccc;
+    padding-left: 85px;
+    padding-right: 70px;
+    padding-top: 25px;
+}
+.reg_item{
+    width: 100px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 15px;
+    color: #999999;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    
+}
+.reg_item i{
+    font-style: normal;
+    color: red;
+    margin-right:10px;
+}
+.input_item{
+    width: 270px;
+    float: left;
+}
+.regist li{
+    margin-bottom: 30px;
+}
+.reg_btn{
+    width: 270px;
+    background: url(../images/icon/des_tit_03.jpg) left top repeat-x;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.tongyi{
+    margin-left: 110px; 
 }
